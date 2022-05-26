@@ -11,7 +11,7 @@ using WiredBrainCoffeeAdmin.Data;
 namespace WiredBrainCoffeeAdmin.Migrations
 {
     [DbContext(typeof(WiredContext))]
-    [Migration("20220526145525_InitialCreate")]
+    [Migration("20220526194707_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
