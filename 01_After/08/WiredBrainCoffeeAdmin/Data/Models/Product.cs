@@ -9,7 +9,6 @@ namespace WiredBrainCoffeeAdmin.Data
 
         [Required]
         public string Name { get; set; }
-        [MaxLength(300)]
         [Required]
         public string ShortDescription { get; set; }
         [Required]
