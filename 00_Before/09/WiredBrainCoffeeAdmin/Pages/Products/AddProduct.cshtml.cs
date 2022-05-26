@@ -17,7 +17,7 @@ namespace WiredBrainCoffeeAdmin.Pages.Products
         }
 
         [BindProperty]
-        public Product NewProduct { get; set; }
+        public Product NewProduct { get; set; } = new Product();
 
         public void OnGet()
         {
